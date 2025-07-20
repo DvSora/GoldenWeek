@@ -2,10 +2,50 @@ body {
     background-color:whitesmoke;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    margin: 0;
+}
+p {
+    margin:0;
+}
+
+
+ul {
+    list-style: circle;
+    
+}
+
+ul ::marker {
+    color:#bc002d;
 }
 
 .logo-text{
     text-align: center;
+}
+
+.nav-links {
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    background-color:#bc002d;
+    font-size: 1.5rem;
+    gap:1rem;
+}
+
+.hero-img {
+    width:100%;
+    height:600px;
+    border:#bc002d 4px solid;
+}
+.wrapper {
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.nav-links a {
+      color:white;
+}
+.nav-links a:hover {
+      color:#e9e9e9
 }
 
 .text-logo {
@@ -27,6 +67,8 @@ body {
 }
 
 .container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     max-width: 1240px;
     margin:auto;
     padding:20px;
@@ -78,3 +120,20 @@ body {
 .content-block-first{
     position: relative;
 }
+
+.cherry-text {
+    text-align: center;
+}
+
+.left-links a {
+    margin-left:1.2rem;
+}
+
+
+.side-border {
+    border-inline-start:#bc002d 5px solid;
+    padding-left:4rem;
+    margin:auto;
+    font-size:1.15rem;
+}
+
