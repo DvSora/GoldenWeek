@@ -1,8 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color:whitesmoke;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     margin: 0;
+}
+
+.body-bg-img {
+    background: url(/assets/japanGodlenweekHero.png) no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
 }
 p {
     margin:0;
@@ -146,3 +156,42 @@ ul ::marker {
 .green {
     background-color: limegreen;
 }
+
+.cnt-text {
+    text-align: center;
+}
+
+
+.festival-img {
+    width:100%;
+    border: #bc002d 4px solid;
+
+}
+
+.fest-container {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1240px;
+    margin:auto;
+    padding:20px;
+    row-gap: 2rem;
+}
+
+.grid-align {
+    margin:auto;
+}
+.fest-container div {
+    padding-left:1rem;
+}
+
+.fest-bg-shade {
+    background-color: rgb(221, 213, 202);
+    border: #bc002d 3px solid;
+}
+
+.fest-text {
+    height:100%;
+    width: 80%;
+}
+
